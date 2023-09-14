@@ -35,6 +35,13 @@ Its also unclear exactly how the trap stiffness is calculated/over which length 
 Despite these uncertainties, the results agree well with
 thouse presented in the paper.
 
+Figure 1 is qualitatively interesting, but it is very difficult
+to reproduce as its unclear exactly how the trapping efficiency
+is calculated.
+We get similar shapes that demonstrate the non-monoticity and
+discontinuity, but its difficult to get the same scaling factor
+(unless I'm missing something obvious).
+
 Possible improvements could include doing dynamics simulations
 to find the effective trap stiffness or corner frequency
 instead of estimating the trap stiffness from the force profile.

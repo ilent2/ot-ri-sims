@@ -41,7 +41,6 @@ end
 %% Determine calibration factor (for power/trap stiffness)
 % This converts from toolbox units (Q) to pN/nm and uses a similar
 % approach used in the paper for calibrating to experimental results
-% Calculate T-matrix for particle
 tmatrix = ott.TmatrixMie(radii(jj), 'index_medium', n_medium, ...
     'index_particle', SIn, 'wavelength0', wavelength0);
 z0 = ott.axial_equilibrium(tmatrix, beam);
