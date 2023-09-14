@@ -24,6 +24,14 @@ linking papers with these sorts of code assets.
 * Matlab (tested using R2022b)
 * OTT (tested with rev. 623221c)
 
+# Results
+
+With this code I was able to reproduce Figure 3.  There are some
+differences, probably related to small differences in simulation
+parameters.
+
+![Reproduction of Figure 3 from the paper](figures/figure3.png)
+
 # Comments
 
 Its hard to know the exact properties of the beam without
